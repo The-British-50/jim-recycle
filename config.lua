@@ -6,7 +6,7 @@ Config = {
 	Blips = true, -- Enable Blips?
 	BlipNamer = false, -- Enable to Name Blips different things, disable if you already have too many blips as this will group them together
 	Pedspawn = true, -- Do you want to spawn peds for main locations?
-	img = "qb-inventory/html/images/", -- Set this to your inventory
+	img = "lj-inventory/html/images/", -- Set this to your inventory
 	JimMenu = true, -- If using updated qb-menu icons, set this true
 	JobRole = nil, -- Whats the job role you want to use this? "nil" for none
 	EnableOpeningHours = true, -- Enable opening hours? If disabled you can always open the pawnshop.
@@ -36,13 +36,13 @@ Config = {
 		},
 	},
 	Prices = {
-		['copper'] = 10,
-		['plastic'] = 10,
-		['metalscrap'] = 10,
-		['steel'] = 10,
+		['copper'] = 15,
+		['plastic'] = 15,
+		['metalscrap'] = 15,
+		['steel'] = 15,
 		['glass'] = 10,
 		['iron'] = 10,
-		['rubber'] = 10,
+		['rubber'] = 20,
 		['aluminum'] = 10,
 		['bottle'] = 5,
 		['can'] = 5,
