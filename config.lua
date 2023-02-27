@@ -63,7 +63,6 @@ Config = {
 		"bottle",
 		"can",
 		"lighter",
-		"pokemonboosterpack",
 	},
 	ScrapItems = {
 		"steel",
