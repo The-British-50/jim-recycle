@@ -62,7 +62,7 @@ Config = {
 	DumpItems = {
 		"bottle",
 		"can",
-		"sandwich",
+		"lighter",
 		"pokemonboosterpack",
 	},
 	ScrapItems = {
