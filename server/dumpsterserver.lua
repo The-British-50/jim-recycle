@@ -22,6 +22,7 @@ RegisterServerEvent('jim-recycle:Dumpsters:Reward', function()
 		TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["rubber"], 'add', random)
 	end
 	if math.random(1, 10) <= 7 then
-		TriggerClientEvent('inventory:client:itemBox', src, QBCore.Shared.Items["pokemonboosterpack"], 'add', 1)
+		local amount = 1
+		TriggerClientEvent('inventory:client:itemBox', src, QBCore.Shared.Items["pokemonboosterpack"], 'add', amount)
 	end
 end)
