@@ -27,14 +27,14 @@ RegisterServerEvent('jim-recycle:Dumpsters:Reward', function()
 		Player.Functions.AddItem("pokemonboosterpack", amount)
 		TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["pokemonboosterpack"], 'add', amount)
 	end]]--
-	
+
 	-- Experimental function fo using luck
 	if math.random(1, 8) == math.random(1, 8) then
-        local amount = math.random(1, 8)
+        local amount = 1
         Player.Functions.AddItem("pokemonboosterpack", amount)
 	elseif
        exports['ps-buffs']:HasBuff("luck") then
-	local amount = math.random(1,4)
+	local amount = 2
 	Player.Functions.AddItem("pokemonboosterpack", amount)
  	TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["pokemonboosterpack"], 'add', amount)
     end
