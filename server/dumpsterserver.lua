@@ -21,14 +21,15 @@ RegisterServerEvent('jim-recycle:Dumpsters:Reward', function()
 		Player.Functions.AddItem("rubber", random)
 		TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["rubber"], 'add', random)
 	end
+	
 	-- Pokemon card function
-	if math.random(1, 10) == math.random(1, 10) then
+	--[[if math.random(1, 10) == math.random(1, 10) then
 		local amount = 1
 		Player.Functions.AddItem("pokemonboosterpack", amount)
 		TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["pokemonboosterpack"], 'add', amount)
-	end
+	end]]--
 
-	--[[ Experimental function fo using luck
+	-- Experimental function for using luck
 	if math.random(1, 10) == math.random(1, 10) then
         local amount = 1
         Player.Functions.AddItem("pokemonboosterpack", amount)
@@ -36,7 +37,7 @@ RegisterServerEvent('jim-recycle:Dumpsters:Reward', function()
 		local amount = 2
 		Player.Functions.AddItem("pokemonboosterpack", amount)
  		TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["pokemonboosterpack"], 'add', amount)
-    end]]--
+    end
 	if math.random(1, 15) == math.random(1, 15) then
 		local amount = 1
 		Player.Functions.AddItem("nylonrope", amount)
