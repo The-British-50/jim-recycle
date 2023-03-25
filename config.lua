@@ -10,8 +10,8 @@ Config = {
 	JimMenu = true, -- If using updated qb-menu icons, set this true
 	JobRole = nil, -- Whats the job role you want to use this? "nil" for none
 	EnableOpeningHours = true, -- Enable opening hours? If disabled you can always open the pawnshop.
-	OpenHour = 9, -- From what hour should the pawnshop be open?
-	CloseHour = 21, -- From what hour should the pawnshop be closed?
+	OpenHour = 8, -- From what hour should the pawnshop be open?
+	CloseHour = 22, -- From what hour should the pawnshop be closed?
 	PayAtDoor = nil, -- Set to nil stop turn this off, set to a number to enable
 
 	Minigame = "ps-ui", -- Enable minigame when searching. qb-skillbar/qb-lock/ps-ui
