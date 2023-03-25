@@ -18,7 +18,7 @@ RegisterServerEvent('jim-recycle:Scrap:Reward', function()
 	--If two random numbers match, give reward
 	if math.random(1, 3) == math.random(1, 3) then
 		local random = math.random(1, 3)
-		Player.Functions.AddItem("rubber", random)
-		TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["rubber"], 'add', random)
+		Player.Functions.AddItem("steel", random)
+		TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["steel"], 'add', random)
 	end
 end)
